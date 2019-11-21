@@ -1,0 +1,19 @@
+{
+  "name": "gotc-backend",
+  "version": "1.0.0",
+  "description": "api endpoint for seats of power ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node index.js"
+  },
+  "author": "hunter cash",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.0"
+  }
+}
